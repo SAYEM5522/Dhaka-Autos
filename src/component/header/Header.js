@@ -10,30 +10,29 @@ const Header = () => {
 
   return (
     <>
-      <header className="py-4 bg-white lg:max-h-[110px] flex items-center justify-center">
+      <header className="py-4 bg-white lg:max-h-[100px] flex items-center justify-center">
         <div className="container px-4 mx-auto sm:px-6 lg:px-8">
           <div className={"flex items-center justify-between"}>
-            {/* <div className="flex-shrink-0">
+            <div className="flex-shrink-0">
               <a href="/" title="" className="flex">
                 <img
                   className=""
-                  // width={110}
-                  // height={90}
-                  src="/logo.png"
-                  alt=""
-                />
-              </a>
-            </div> */}
-            <div class="flex items-center flex-shrink-0 ml-4 lg:ml-0">
-              <a href="#" title="" class="inline-flex">
-                <span class="sr-only"> Rareblocks logo </span>
-                <img
-                  class="w-auto h-8"
-                  src="https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/logo.svg"
+                  width={250}
+                  height={120}
+                  src="/logo.jpeg"
                   alt=""
                 />
               </a>
             </div>
+            {/* <div class="flex items-center flex-shrink-0 ml-4 lg:ml-0">
+              <a href="#" title="" class="inline-flex">
+                <img
+                  class="w-[250px] h-full"
+                  src="logo.jpeg"
+                  alt=""
+                />
+              </a>
+            </div> */}
 
             <div className="flex lg:hidden">
               <button
