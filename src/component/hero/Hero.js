@@ -12,7 +12,7 @@ const Hero = () => {
           <div className="absolute inset-0 z-0">
             <img
               className="object-cover object-right w-full h-full lg:object-center"
-              src="https://demoapus1.com/boxcar/wp-content/uploads/2023/10/slider1.jpg"
+              src="banner1.png"
               alt=""
             />
           </div>
@@ -21,7 +21,7 @@ const Hero = () => {
 
           <div className="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl z-20">
             <div className="max-w-lg mx-auto text-center xl:max-w-4xl">
-              <p className="max-w-lg mx-auto font-nunito-sans text-lg mt-6 text-base font-normal leading-7 text-gray-300">
+              <p className="max-w-lg mx-auto font-nunito-sans text-lg mt-6  font-normal leading-7 text-gray-300">
                 TRUSTWORTHY CAR DEALERSHIP
               </p>
               <p className="text-5xl font-nunito-sans font-bold text-white sm:text-4xl xl:text-5xl">
@@ -31,7 +31,7 @@ const Hero = () => {
                 <div className="absolute transition-all duration-1000 opacity-70 inset-0 blur-lg filter group-hover:opacity-100 group-hover:duration-200"></div>
 
                 <a
-                  href="#"
+                  href="/"
                   title=""
                   className="relative inline-flex items-center rounded-lg justify-center px-8 py-3 text-base font-bold text-white transition-all duration-200 bg-[#23A999] border border-transparent hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
                   role="button"
@@ -49,7 +49,7 @@ const Hero = () => {
             </div>
             <div className="flex ml-5 flex-col items-center">
               <p>Contact Us</p>
-              <p className="font-semibold text-xl">+880 1233635265</p>
+              <p className="font-semibold text-xl">+88 013 30 30 30 87</p>
             </div>
           </div>
           <div className="flex flex-row items-center">
@@ -57,8 +57,8 @@ const Hero = () => {
               <CiStar size={24} color="#fff" />
             </div>
             <div className="flex ml-5 flex-col items-center">
-              <p>5 Star Service</p>
-              <p className="font-semibold text-xl">Excellent Rating</p>
+              <p>Email Us</p>
+              <p className="font-semibold text-xl">info@dhakaautos.com</p>
             </div>
           </div>
           <div className="flex flex-row items-center">
@@ -66,12 +66,12 @@ const Hero = () => {
               <IoTimeOutline size={24} color="#fff" />
             </div>
             <div className="flex ml-5 flex-col items-center">
-              <p>Monday to Sunday</p>
-              <p className="font-semibold text-xl">9:00 AM – 7:00 PM</p>
+              <p>Thursday  to  Tueday</p>
+              <p className="font-semibold text-xl">10:00 AM - 08:00 PM</p>
             </div>
           </div>
         </div>
-        <div className="bg-[#fff] rounded-t-[60px] shadow-lg z-30 mt-[-120px] relative xl:mt-[-120px] md:mt-[-120px] sm:mt-[-120px]">
+        <div className="bg-[#fff]  shadow-lg z-30 mt-[-120px] relative xl:mt-[-120px] md:mt-[-120px] sm:mt-[-120px]">
           <section className="py-10 mt-[50px] sm:py-16 lg:py-24">
             <div className="max-w-7xl px-4 mx-auto sm:px-6 lg:px-8">
               <Brand />

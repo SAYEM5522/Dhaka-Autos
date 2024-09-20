@@ -10,7 +10,10 @@ const Header = () => {
 
   return (
     <>
-      <header className="py-4 bg-white lg:max-h-[100px] flex items-center justify-center">
+      <header style={{
+        backgroundImage:"url('header.png')",
+        backgroundRepeat:"no-repeat"
+      }} className="py-4 bg-white lg:max-h-[100px] flex items-center justify-center">
         <div className="container px-4 mx-auto sm:px-6 lg:px-8">
           <div className={"flex items-center justify-between"}>
             <div className="flex-shrink-0">
@@ -19,7 +22,7 @@ const Header = () => {
                   className=""
                   width={250}
                   height={120}
-                  src="/logo.jpeg"
+                  src="/logo.png"
                   alt=""
                 />
               </a>
@@ -126,24 +129,24 @@ const Header = () => {
                 <a
                   href="/"
                   title=""
-                  class="text-base font-medium mr-8 text-gray-900 transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
+                  class="text-base font-medium mr-8 text-white transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
                 >
                   Home
                 </a>
                 <a
                   href="/about-us"
                   title=""
-                  class="text-base font-medium mr-4 text-gray-900 transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
+                  class="text-base font-medium mr-4 text-white transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
                 >
                   About Us
                 </a>
 
                 <div class=" flex min-w-[120px] mr-4 items-center justify-center">
                   <div class="group relative cursor-pointer">
-                    <div class="flex items-center justify-between space-x-6 bg-white px-0">
+                    <div class="flex items-center justify-between space-x-6 ">
                       <a
                         href="/service-list"
-                        class="menu-hover  text-base font-medium text-black "
+                        class="menu-hover  text-base font-medium text-white "
                       >
                         Our Services
                       </a>
@@ -225,7 +228,7 @@ const Header = () => {
                 <a
                   href="/contact-us"
                   title=""
-                  class="text-base mr-8 font-medium text-gray-900 transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
+                  class="text-base mr-8 font-medium text-white transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
                 >
                   Contact Us
                 </a>
@@ -240,24 +243,24 @@ const Header = () => {
                 <a
                   href="/"
                   title=""
-                  class="text-base font-medium mr-8 text-gray-900 transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
+                  class="text-base font-medium mr-8 text-white transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
                 >
                   Home
                 </a>
                 <a
                   href="/about-us"
                   title=""
-                  class="text-base font-medium mr-8 text-gray-900 transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
+                  class="text-base font-medium mr-8 text-white transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
                 >
                   About Us
                 </a>
 
                 <div class="mr-8">
                   <div class="group relative cursor-pointer">
-                    <div class="flex items-center justify-between space-x-6 bg-white px-0">
+                    <div class="flex items-center justify-between space-x-6 ">
                       <a
                         href="/service-list"
-                        class="menu-hover  text-base font-medium text-black lg:mx-4"
+                        class="menu-hover  text-base font-medium text-white lg:mx-4"
                       >
                         Services
                       </a>
@@ -268,7 +271,7 @@ const Header = () => {
                 <a
                   href="/contact-us"
                   title=""
-                  class="text-base mr-8 font-medium text-gray-900 transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
+                  class="text-base mr-8 font-medium text-white transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
                 >
                   Contact Us
                 </a>
