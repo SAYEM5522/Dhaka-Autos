@@ -3,25 +3,24 @@ import React from "react";
 const CallToAction = () => {
   return (
     <div>
-      <section className="relative py-12 bg-gray-900 sm:py-16 lg:py-20 xl:py-32">
+      <section className="relative py-12  sm:py-16 lg:py-20 xl:py-32">
         <div className="absolute inset-0">
           <img
             className="object-cover w-full h-full"
-            src="https://demoapus1.com/boxcar/wp-content/uploads/2023/10/slider3.jpg"
+            src="call.jpg"
             alt=""
           />
         </div>
 
-        <div className="absolute inset-0 bg-gray-900/50"></div>
+        {/* <div className="absolute inset-0 bg-gray-900/50"></div> */}
 
         <div className="relative px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="max-w-xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
-              READY TO DRIVE YOUR DREAM CAR?
+            Get Latest Car
             </h2>
             <p className="mt-4 text-base font-normal leading-7 text-white sm:mt-6">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nunc
-              nisl eu consectetur. Mi massa elementum odio eu viverra amet.
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.
             </p>
 
             <div className="mt-8 sm:mt-10">
