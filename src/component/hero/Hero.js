@@ -17,7 +17,7 @@ const Hero = () => {
     />
   </div>
 
-  <div className="absolute inset-0 bg-gray-900 bg-opacity-40 z-10"></div>
+  {/* <div className="absolute inset-0 bg-gray-900 bg-opacity-40 z-10"></div> */}
 
   <div className="relative px-4 sm:px-6 lg:px-8 max-w-7xl z-20">
     <div className="max-w-lg mx-auto text-left xl:max-w-4xl">

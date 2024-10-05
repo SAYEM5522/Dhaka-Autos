@@ -145,7 +145,7 @@ const Header = () => {
                   <div class="group relative cursor-pointer">
                     <div class="flex items-center justify-between space-x-6 ">
                       <a
-                        href="/service-list"
+                        href="/services"
                         class="menu-hover  text-base font-medium text-white "
                       >
                         Our Services
@@ -259,7 +259,7 @@ const Header = () => {
                   <div class="group relative cursor-pointer">
                     <div class="flex items-center justify-between space-x-6 ">
                       <a
-                        href="/service-list"
+                        href="/services"
                         class="menu-hover  text-base font-medium text-white lg:mx-4"
                       >
                         Services

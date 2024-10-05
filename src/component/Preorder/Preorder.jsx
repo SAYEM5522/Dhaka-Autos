@@ -7,7 +7,7 @@ const Preorder = () => {
   return (
     <div>
         <Header/>
-        <Banner url={"/preorder1.png"} />
+        <Banner url={"preorder1.png"} />
         <Footer/>
     </div>
   )
