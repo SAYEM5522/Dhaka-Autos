@@ -1,12 +1,12 @@
 import React from "react";
 import Banner from "../Banner/Banner";
 
-const Service = () => {
+const Preorder = () => {
   return (
     <div>
-      <Banner url={"about.png"} title={"Services"} />
+      <Banner url={"preorder1.png"} />
     </div>
   );
 };
 
-export default Service;
+export default Preorder;
