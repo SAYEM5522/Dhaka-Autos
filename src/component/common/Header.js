@@ -8,6 +8,10 @@ const HeaderTabs = [
     url: "/",
   },
   {
+    label: "Verify Auction Sheet",
+    url: "/verify-auction",
+  },
+  {
     label: "About Us",
     url: "/about-us",
   },

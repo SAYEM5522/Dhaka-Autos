@@ -8,6 +8,7 @@ import AboutUs from "./component/about-us/AboutUs";
 import Contact from "./component/contact-us/Contact";
 import Service from "./component/Services/Service";
 import PreOrder from "./component/PreOrder/PreOrder";
+import VerifyAuction from "./component/VerifyAuction";
 import "./App.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/verify-auction" element={<VerifyAuction />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/preorder" element={<PreOrder />} />
