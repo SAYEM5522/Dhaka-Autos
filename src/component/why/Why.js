@@ -7,6 +7,7 @@ const Why = () => {
         backgroundImage: "url('why.png')",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
+        backgroundSize: "cover",
       }}
       className="py-12 px-10 bg-gray-50 lg:py-28"
     >
