@@ -84,6 +84,8 @@ const Header = () => {
         style={{
           backgroundImage: "url('header.png')",
           backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          backgroundPosition: "cover",
         }}
         className="py-4 bg-white lg:max-h-[100px] flex items-center justify-center relative"
       >

@@ -9,6 +9,7 @@ const Footer = () => {
         background: "url(footer_image.png)",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
       }}
     >
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
