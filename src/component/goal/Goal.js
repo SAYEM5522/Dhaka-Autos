@@ -8,6 +8,7 @@ const Goal = () => {
           backgroundImage: "url('goal.png')",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
+          backgroundSize: "cover",
         }}
         className="grid grid-cols-1 py-32 lg:grid-cols-7"
       >

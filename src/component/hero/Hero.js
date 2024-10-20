@@ -64,6 +64,7 @@ const Hero = () => {
           backgroundImage: "url('brand.png')",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
+          backgroundSize: "cover",
         }}
         className="-mt-[150px] md:-mt-[100px] lg:-mt-[50px]"
       >
@@ -79,6 +80,7 @@ const Hero = () => {
           backgroundImage: "url('preorder.png')",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
+          backgroundSize: "cover",
         }}
         className="py-24"
       >

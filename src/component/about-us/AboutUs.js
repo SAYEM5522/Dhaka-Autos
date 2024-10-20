@@ -12,6 +12,7 @@ const AboutUs = () => {
           backgroundImage: "url('about3.png')",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
+          backgroundSize: "cover",
         }}
       >
         <AboutDetails />
