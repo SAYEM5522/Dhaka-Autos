@@ -87,7 +87,7 @@ const Header = () => {
           backgroundSize: "cover",
           backgroundPosition: "cover",
         }}
-        className="py-4 bg-white lg:max-h-[100px] flex items-center justify-center relative"
+        className="py-6 bg-white lg:max-h-[100px] flex items-center justify-center relative"
       >
         <div className="container px-4 mx-auto sm:px-6 lg:px-8">
           <div className={"flex items-center justify-between"}>
