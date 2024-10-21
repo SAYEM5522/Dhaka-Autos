@@ -4,7 +4,7 @@ const CallToAction = () => {
   return (
     <section className="relative py-16 lg:py-20 xl:py-32">
       <div className="absolute inset-0">
-        <img className="object-cover w-full h-full" src="call.jpg" alt="" />
+        <img className="object-cover w-full h-full" src="call.png" alt="" />
       </div>
 
       {/* <div className="absolute inset-0 bg-gray-900/50"></div> */}
