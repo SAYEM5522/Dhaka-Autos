@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       fontFamily: {
         "nunito-sans": ['"Nunito Sans"', "sans-serif"],
-        "dm-sans": ['"DM Sans"', "sans-serif"],
+        "dm-sans": ["DM Sans", "sans-serif"],
+        ethno: ["ethnocentric", "sans-serif"],
       },
     },
   },
