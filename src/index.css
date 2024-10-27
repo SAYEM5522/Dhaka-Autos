@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "ethnocentric";
+  src: url("../public/fonts/ethnocentric.ttf");
+}
+
 body {
   margin: 0;
   font-family: nunito-sans, sans-serif;

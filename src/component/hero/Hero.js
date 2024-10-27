@@ -14,10 +14,13 @@ const Hero = () => {
           />
 
           <div className="absolute top-[40%] left-[30%] -translate-y-1/2 -translate-x-1/2 text-left z-10">
-            <p className="text-2xl md:text-4xl lg:text-6xl xl:text-7xl font-bold text-white">
+            <p
+              className="text-2xl md:text-4xl lg:text-6xl xl:text-7xl text-white"
+              style={{ textShadow: "#FC0 1px 0 10px" }}
+            >
               FIND YOUR NEXT
             </p>
-            <p className="text-2xl md:text-4xl lg:text-6xl xl:text-7xl text-white pt-3">
+            <p className="text-xl md:text-3xl lg:text-5xl xl:text-6xl text-white pt-5 font-ethno">
               AWESOME VEHICLE
             </p>
           </div>
