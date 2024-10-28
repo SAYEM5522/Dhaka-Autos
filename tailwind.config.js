@@ -6,7 +6,7 @@ module.exports = {
       fontFamily: {
         "nunito-sans": ['"Nunito Sans"', "sans-serif"],
         "dm-sans": ["DM Sans", "sans-serif"],
-        ethno: ["ethnocentric", "sans-serif"],
+        logotype: ["logotype", "sans-serif"],
       },
     },
   },
