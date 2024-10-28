@@ -13,14 +13,14 @@ const Hero = () => {
             alt=""
           />
 
-          <div className="absolute top-[40%] left-[30%] -translate-y-1/2 -translate-x-1/2 text-left z-10">
+          <div className="absolute top-[50%] md:top-[40%] w-full left-[50%] md:left-[32%] lg:left-[30%] -translate-y-1/2 -translate-x-1/2 text-center z-10  tracking-[7px] font-logotype">
             <p
-              className="text-2xl md:text-4xl lg:text-6xl xl:text-7xl text-white"
-              style={{ textShadow: "#FC0 1px 0 10px" }}
+              className="text-xl md:text-2xl lg:text-4xl xl:text-[52px] text-white font-bold"
+              style={{ textShadow: "#FF0000 2px 1px 10px" }}
             >
               FIND YOUR NEXT
             </p>
-            <p className="text-xl md:text-3xl lg:text-5xl xl:text-6xl text-white pt-5 font-ethno">
+            <p className="text-xl md:text-2xl lg:text-4xl xl:text-[52px] text-white pt-2 lg:pt-7 font-[900]  tracking-[10px]">
               AWESOME VEHICLE
             </p>
           </div>

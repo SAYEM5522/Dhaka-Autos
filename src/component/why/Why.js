@@ -21,7 +21,7 @@ const Why = () => {
         <div className="flex flex-col gap-6 items-center max-w-md mx-auto mt-8 lg:mt-20 lg:flex-row lg:max-w-none">
           <div className="flex-1 overflow-hidden bg-white border border-gray-200 rounded-2xl">
             <div className="py-8 px-9">
-              <p className="text-4xl">&#128522;</p>
+              <img src="support.png" height={80} width={80} />
               <p className="mt-8 text-xl font-bold text-gray-900">
                 Expert Customer Service
               </p>
@@ -37,7 +37,7 @@ const Why = () => {
 
           <div className="flex-1 overflow-hidden bg-white border border-gray-200 rounded-2xl">
             <div className="py-8 px-9">
-              <p className="text-4xl">&#128515;</p>
+              <img src="trust.png" height={60} width={70} />
               <p className="mt-8 text-xl font-bold text-gray-900">
                 Quality You Can Trust
               </p>
@@ -53,7 +53,7 @@ const Why = () => {
 
           <div className="flex-1 overflow-hidden bg-white border border-gray-200 rounded-2xl">
             <div className="py-8 px-9">
-              <p className="text-4xl">&#x1F44D;</p>
+              <img src="quality.png" height={60} width={60} />
               <p className="mt-8 text-xl font-bold text-gray-900">
                 Affordable Pricing & Flexible Financing
               </p>
