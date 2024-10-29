@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 import AppNavLink from "./AppNavLink";
+import { useLocation } from "react-router-dom";
 
 const HeaderTabs = [
   {
@@ -73,6 +74,9 @@ const HeaderTabs = [
 
 const Header = () => {
   const [expanded, setExpanded] = useState(false);
+  const location = useLocation();
+
+  console.log("This is test:", location.pathname);
 
   const toggleMenu = () => {
     setExpanded((expanded) => !expanded);
@@ -149,7 +153,11 @@ const Header = () => {
                         <AppNavLink
                           label={header.label}
                           url={header.url}
-                          className="text-base font-medium mr-8 text-white transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
+                          className={`text-base font-medium mr-8 ${
+                            header.url === location.pathname
+                              ? "text-red-700"
+                              : "text-white"
+                          } transition-all duration-200 rounded outline-none font-pj hover:text-opacity-50`}
                         />
                         <div class="invisible absolute z-50 py-3  min-w-[280px] flex w-full flex-col bg-white  px-4 text-gray-800 shadow-xl group-hover:visible">
                           <div className="my-1 block border-b border-gray-100 py-1 font-normal text-black hover:text-[#2DD4C0] md:mx-2">
@@ -168,7 +176,11 @@ const Header = () => {
                       <AppNavLink
                         label={header.label}
                         url={header.url}
-                        className="text-base font-medium mr-8 text-white transition-all duration-200 rounded focus:outline-none font-pj hover:text-opacity-50 focus:ring-1 focus:ring-gray-900 focus:ring-offset-2"
+                        className={`text-base font-medium mr-8 ${
+                          header.url === location.pathname
+                            ? "text-red-700"
+                            : "text-white"
+                        } transition-all duration-200 rounded outline-none font-pj hover:text-opacity-50`}
                       />
                     )}
                   </div>

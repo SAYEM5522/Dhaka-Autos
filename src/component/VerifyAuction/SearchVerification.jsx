@@ -5,7 +5,9 @@ const SearchVerification = () => {
   const [verifiedData, setVerifiedData] = useState(null);
   const [verifiedImage, setVerifiedImage] = useState("");
 
-  const handleSearch = async () => {
+  const handleSearch = async (e) => {
+    e?.preventDefault();
+
     if (!searchValue) return;
 
     try {
@@ -43,20 +45,30 @@ const SearchVerification = () => {
             <p className="text-2xl md:text-3xl font-nunito-sans font-bold text-white">
               Auction Sheet Verification Of Japanese Cars in Bangladesh
             </p>
-            <div className="mt-5 w-4/5 flex flex-col md:flex-row md:w-3/4 xl:w-3/5 gap-4">
+            <form
+              className="mt-5 w-4/5 flex flex-col md:flex-row md:w-3/4 xl:w-3/5 gap-4"
+              onSubmit={handleSearch}
+            >
               <input
                 placeholder="Enter Chassis No"
-                onChange={(e) => setSearchValue(e.target.value)}
+                onChange={(e) => {
+                  if (verifiedData) setVerifiedData(null);
+
+                  setSearchValue(e.target.value);
+                }}
                 value={searchValue}
+                name="search"
+                type="text"
                 className="px-3 py-4 text-xl rounded-md w-full border border-red-200 transition duration-300 ease focus:outline-none focus:border-red-500 hover:border-red-700 shadow-sm focus:shadow"
               />
               <button
                 className="text-white bg-red-500 hover:bg-red-700 p-3 rounded-md text-xl px-5"
                 onClick={handleSearch}
+                type="submit"
               >
                 Search
               </button>
-            </div>
+            </form>
             {verifiedImage ? (
               <div className="flex flex-col md:flex-row border border-white rounded z-20 mt-10 w-fit mx-auto p-5 text-white gap-7 items-center">
                 <div>
@@ -71,6 +83,13 @@ const SearchVerification = () => {
                       </p>
                     ))}
                 </div>
+              </div>
+            ) : verifiedData && searchValue ? (
+              <div className="text-xl bg-white p-3 px-6 rounded-md mt-14">
+                <p>
+                  No record found for Chassis Number:{" "}
+                  <span className="font-bold text-red-600">{searchValue}</span>
+                </p>
               </div>
             ) : null}
           </div>
